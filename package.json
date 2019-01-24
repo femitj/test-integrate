@@ -4,7 +4,8 @@
   "description": "eslint, travis cli, coveralls",
   "main": "index.js",
   "scripts": {
-    "test": "echo hello world && exit 1"
+    "test": "echo hello world && exit 1",
+    "coverage": "nyc npm test | coveralls"
   },
   "repository": {
     "type": "git",
