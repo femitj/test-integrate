@@ -1,0 +1,26 @@
+{
+  "name": "test-integrate",
+  "version": "1.0.0",
+  "description": "eslint, travis cli, coveralls",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/femitj/test-integrate-.git"
+  },
+  "author": "Tijani Femi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/femitj/test-integrate-/issues"
+  },
+  "homepage": "https://github.com/femitj/test-integrate-#readme",
+  "devDependencies": {
+    "coveralls": "^3.0.2",
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.15.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2"
+  }
+}
